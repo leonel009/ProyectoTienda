@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <!-- Incluyendo Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 15px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 15px;
+            text-align: center;
+        }
+        .content {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Encabezado</h1>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Barra lateral -->
+            <nav class="col-md-3 sidebar">
+                <h4>Barra Lateral</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Enlace 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Enlace 2</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Cuerpo del contenido -->
+            <main class="col-md-9 content">
+                <h2>Cuerpo del Contenido</h2>
+                <p>Aquí va el contenido principal de la página.</p>
+            </main>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>© 2024 Mi Página Web</p>
+    </footer>
+
+    <!-- Incluyendo Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
